@@ -1,0 +1,45 @@
+h1{
+    display:flex;
+    justify-content: left;
+    color:hsl(213, 96%, 18%);
+}
+
+body{
+
+    background-color: hsl(231, 11%, 63%);
+}
+
+.description{
+
+    display:flex;
+   margin: 4vw;
+    color:grey;
+}
+
+.card{
+
+    position:relative;
+    top:90px;
+    background-color:white;
+    width: 60vw;
+    padding: 10vw;
+    left: 10vw;
+    border-radius: 20px;
+ 
+}
+
+.formulaire{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+input{
+    
+    padding: 5vw;
+    gap:10px;
+    
+}
+ 
