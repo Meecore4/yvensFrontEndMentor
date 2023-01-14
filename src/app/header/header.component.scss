@@ -1,9 +1,9 @@
-img{
 
-    width: 100vw;
+#entete{
+
+    width: 100%;
     position: absolute;
 }
-
 .menu{
 
     position: relative;
@@ -24,8 +24,8 @@ a{
     font-size: 15px;
     border: 1px solid white;
     font-weight: bold;
-    padding: 3vw;
-    margin: 1vw;
+    padding: 10px;
+    margin: auto;
     border-radius: 50%;
      
 }
@@ -40,8 +40,16 @@ input{
     color:hsl(213, 96%, 18%);
 }
 
-// - Mobile: 375px
-// - Desktop: 1440px
+@media (min-width: 375px) {
+
+
+ }
+
+
+@media (min-width: 1440px){
+
+}
+
 
 // ## Colors
 
