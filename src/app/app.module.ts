@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 
-
 // fait par alicia//
 // import { FormulaireComponent } from './formulaire/formulaire.component';
 import { HeaderComponent } from './header/header.component';
@@ -14,7 +13,6 @@ import { Page2Component } from './page2/page2.component';
 import { Page3Component } from './page3/page3.component';
 import { Page4Component } from './page4/page4.component';
 import { FooterComponent } from './footer/footer.component';
-
 
 @NgModule({
   declarations: [
@@ -27,14 +25,9 @@ import { FooterComponent } from './footer/footer.component';
     Page4Component,
     FooterComponent,
   ],
-  
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule
-    
-  ],
+
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

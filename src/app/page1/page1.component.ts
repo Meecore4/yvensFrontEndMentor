@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Page1Component implements OnInit {
 
-  name: string = 'name';
-  email: string = 'email';
-  phone: string = 'phone';
+  name: string = 'e.g Stephen King';
+  email: string = 'e.g stephenking@lorem.com';
+  phone: string = 'e.g +1 234 567 890';
 
   
   constructor(){}

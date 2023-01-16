@@ -11,21 +11,19 @@ import { Page4Component } from './page4/page4.component';
 import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
+  { path: 'header', component: HeaderComponent },
 
-  
-  {path: 'header', component: HeaderComponent},
-  
-  {path: 'page1', component: Page1Component},
-  {path: 'formulaire', component: FormulaireComponent },
-  {path: 'page2', component: Page2Component},
-  {path: 'page3', component: Page3Component},
-  {path: 'page4', component: Page4Component},
-  
-  {path: 'footer', component: FooterComponent},
+  { path: 'page1', component: Page1Component },
+  { path: 'formulaire', component: FormulaireComponent },
+  { path: 'page2', component: Page2Component },
+  { path: 'page3', component: Page3Component },
+  { path: 'page4', component: Page4Component },
+
+  { path: 'footer', component: FooterComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

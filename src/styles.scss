@@ -1,11 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 *{
-
     margin: 0;
     padding: 0;
-}
+  
+ }   
 
-body{
+ body{
 
     background-color:hsl(229, 24%, 87%);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
+
+//  @font-face {
+//     font-family: 'Ubuntu';
+//     src: url('https://fonts.google.com/specimen/Ubuntu');
+//  }
+//     font-family: ;
+//     - Family: [Ubuntu](https://fonts.google.com/specimen/Ubuntu)
+// - Weights: 400, 500, 700
+
+
+
+

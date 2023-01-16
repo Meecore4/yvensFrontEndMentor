@@ -1,27 +1,12 @@
-<!-- <div class="header">
-
-    <img id="entete" src="./assets/bg-sidebar-mobile.jpg" alt="image_entete">
-    
-    <ul class="menu">
-    
-          <li><a href="#">1</a></li>
-          <li><a [routerLink]="['/page2']">2</a></li>
-          <li><a [routerLink]="['/page3']">3</a></li>
-          <li><a [routerLink]="['/page4']">4</a></li>
-    
-    </ul>
-    
-</div> -->
 
 <div class="card">
 <h1>Select your plan</h1>
-<p>You have the option of monthly or yearly billing</p>
+<p class="description">You have the option of monthly or yearly billing</p>
 
 <div class="choix">
     <img src="./assets/icon-arcade.svg" alt="icon-arcade">
     <p class="prix">Arcade<br>
     $9/mo</p> 
-
 </div>
 
 <div class="choix">
@@ -35,3 +20,17 @@
     <p class="prix">Pro<br>
     $15/mo</p> 
 </div>
+
+
+
+<form name="temps">
+  <label class="btToggle">
+   <p>Monthly</p> 
+   <span class="btn">
+      <input type="checkbox" name="temps-mode">
+      <span class="slider"></span>
+    </span> 
+  <p>Yearly</p>
+  </label>
+</form>
+

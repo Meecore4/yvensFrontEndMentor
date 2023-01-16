@@ -1,58 +1,4 @@
 
-// img{
-
-//     width: 100%;
-//     position: absolute;
-// }
-// .menu{
-
-//     position: relative;
-
-// }
-
-// ul{
-//     display: flex;
-//     justify-content: center;
-//     gap: 20px;
-//     list-style-type: none;
-//     top:40px;
-// }
-
-// a{
-//     text-decoration: none;
-//     color: white;
-//     font-size: 15px;
-//     border: 1px solid white;
-//     font-weight: bold;
-//     padding: 3vw;
-//     margin: 1vw;
-//     border-radius: 50%;
-     
-// }
-
-// a:hover{
-
-//     background-color: hsl(206, 94%, 87%);
-//     color:hsl(213, 96%, 18%);
-// }
-
-// @media (min-width: 375px) {
-
-
-//  }
-
-
-// @media (min-width: 1440px){
-
-// }
-p,
-label {
-    font: 1rem 'Fira Sans', sans-serif;
-}
-
-input {
-    margin: 0.4rem;
-}
 
 h1{
     display:flex;
@@ -60,17 +6,28 @@ h1{
     color:hsl(213, 96%, 18%);
 }
 
-body{
+.description{
 
-    background-color: hsl(231, 11%, 63%);
+    color: hsl(231, 11%, 63%);
+    margin: 20px 0px;
+
 }
 
-p{
+.card{
 
-    margin: 4vw;
-    color:grey;
+    position:relative;
+    background-color:white;
+    width: 80%;
+    height: auto;
+    border-radius: 3%;
+    margin: auto;
+        padding: 20px;
+        top: 90px;
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+   
 }
-
 
 .choix{
 
@@ -83,25 +40,6 @@ p{
 
 .choix:hover{
     border: 1px solid hsl(213, 96%, 18%);
-}
-
-.prix{
-
-    display:flex;
-    flex-direction: column;
-}
-.card{
-
-    position:relative;
-    background-color:white;
-    width: 80%;
-    
-    margin: auto;
-    top: 90px;
-   
-    padding: 20px;
-    border-radius: 20px;
- 
 }
 
 input{

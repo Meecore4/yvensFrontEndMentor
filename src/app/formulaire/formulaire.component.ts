@@ -5,15 +5,15 @@ import { Component, OnInit} from '@angular/core';
   templateUrl: './formulaire.component.html',
   styleUrls: ['./formulaire.component.scss']
 })
-export class FormulaireComponent implements OnInit {
+export class FormulaireComponent {
 
-  name: string = 'name';
-  email: string = 'email';
-  phone: string = 'phone';
+  // name: string = 'name';
+  // email: string = 'email';
+  // phone: string = 'phone';
 
-  constructor(){}
+  // constructor(){}
 
-    ngOnInit(): void{
-   }
+  //   ngOnInit(): void{
+  //  }
   }
 
